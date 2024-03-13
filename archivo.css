@@ -1,7 +1,18 @@
+
+body {
+  background-image: url(IMG/hintergrund-.jpg);
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+}
+
 .contenedor {
     display: flex;
     flex-wrap: wrap;
     width: 960px;
+    justify-items: center;
   }
   
   .celda {
@@ -16,5 +27,19 @@
   }
  
   button {
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-left: 15%;
+    font-size: 35px;
+    color: yellow;
+    background-color: blue;
+    border: solid yellow;
+  }
+  
+  button:hover {
+    font-family: fantasy;
+    font-size: 50px;
+    color: blue;
+    background-color: yellow;
+    border:solid blue ; 
+    
   }
