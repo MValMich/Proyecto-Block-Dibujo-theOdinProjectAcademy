@@ -1,0 +1,20 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+  }
+  
+  .celda {
+    width: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .nuevaCuadricula {
+    margin-top: 20px;
+  }
+ 
+  button {
+    margin-top: 2%;
+  }
