@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // Calcular el tamaño de las celdas en función del número de celdas por lado
-      const tamañoCelda = 100 / numCeldas;
+      const tamañoCelda = 55 / numCeldas;
   
       // Crear la cuadrícula
       for (let i = 0; i < numCeldas * numCeldas; i++) {
