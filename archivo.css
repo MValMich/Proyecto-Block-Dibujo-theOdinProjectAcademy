@@ -1,7 +1,9 @@
 
 body {
-  background-image: url(IMG/hintergrund-.jpg);
+  background: radial-gradient(red, blue,orange)
+  /* background-image: url(IMG/hintergrund-.jpg); */
 }
+
 
 #container {
   display: flex;
